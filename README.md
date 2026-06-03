@@ -1,3 +1,5 @@
+[![Robot Framework Tests](https://github.com/Rennan-Soares/agi-blog-automation/actions/workflows/robot-tests.yml/badge.svg)](https://github.com/Rennan-Soares/agi-blog-automation/actions/workflows/robot-tests.yml)
+
 # 🧪 Agi Blog Automation Test Project
 
 Projeto de automação de testes E2E utilizando Robot Framework com Browser Library (Playwright), executado localmente e em pipeline CI via GitHub Actions.
