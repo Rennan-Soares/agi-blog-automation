@@ -8,11 +8,14 @@ ${URL}      https://blog.agibank.com.br
 
 *** Keywords ***
 Abrir Navegador
-    New Browser    chromium    headless=False
+    [Documentation]    Abre o navegador Chromium em modo headless para execução dos testes.
+    New Browser    chromium    headless=True
     New Context
 
-Acessar Blog Do Agi
+Acessar Página Do Blog
+    [Documentation]    Acessa a página inicial do Blog do Agi.
     New Page    ${URL}
 
 Fechar Navegador
+    [Documentation]    Encerra a sessão do navegador e finaliza a execução dos testes.
     Close Browser
